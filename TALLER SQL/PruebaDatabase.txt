@@ -1,0 +1,25 @@
+use 
+
+--Crear Tablas
+
+
+create table Alumno(
+nombre varchar(50),
+apellido varchar(50),
+edad int,
+DNI varchar(8)
+)
+
+
+
+
+create table Profesor(
+nombre varchar(50),
+salonesACargo int,
+TurnoTrabajo varchar(50),
+CursosEnseña varchar(250)
+)
+
+--Mostrar Tablas
+select * from alumno
+select * from profesor
